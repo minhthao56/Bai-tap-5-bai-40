@@ -1,0 +1,103 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: #F5F9FF;
+    color: #555555;
+}
+
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    padding: 50px;
+}
+label{
+    font-size: 16px;
+}
+.images-icon{
+    display: flex;
+    margin-bottom: 20px;
+}
+.image{
+    display: flex;
+    height: 45px;
+    width: 80px;
+    border: solid;
+    justify-content: center;
+    align-items:center ;
+    border-color:rgba(123, 178, 248, 0.5);
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 19px -4px rgba(123,177,248,0.3);
+    margin-right: 10px;
+
+}
+
+#img1{
+    height: 13px;
+    width: 40px;
+}
+#img2{
+    height: 25px;
+    width: 40px;
+}
+
+
+.main-title{
+    display: flex;
+    border-bottom: solid;
+    border-color: rgba(200, 200, 200, 0.4);
+    border-width: 2px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.title{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.icon-title{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+::placeholder{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+input[type="text"]{
+    height: 30px;
+    width: 100%;
+    border: solid;
+    border-color: rgba(123,177,248,0.3);
+    border-width: 2px;
+    border-radius: 3px;
+
+}
+.main2{
+    display: flex;
+    margin-top: 15px;
+}
+.input-card{
+    flex: 2;
+    margin-right: 15px;
+}
+.input-date{
+    flex: 1;
+    margin-right: 15px;
+}
+.input-ccv{
+    flex: 1;
+
+}
+.note{
+    display: flex;
+    margin-top: 20px;
+}
+.icon{
+    color: #56A6E1;
+    margin-right: 10px;
+}
+.noteinside{
+    font-size: 14px;
+}
